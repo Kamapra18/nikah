@@ -16,10 +16,10 @@ musicIcon.addEventListener("click", () => {
 });
 
 let params = new URLSearchParams(location.search);
-let name = params.get("to");
+let guestName = params.get("to");
 
-if (name) {
-  receiver.innerText = name;
+if (guestName) {
+  receiver.innerText = decodeURIComponent(guestName.replace(/\+/g, " "));
 } else {
   receiver.innerText = "";
 }
