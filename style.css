@@ -141,14 +141,22 @@ body {
 }
 
 .heading-title h3 {
-  font-family: Afterglow regular;
+  font-family: "Alex Brush", cursive;
+  color: var(--primary-gold);
+  font-size: 2rem;
+  margin-top: -4px;
+  text-shadow: 0px 1px 1px #0000006e;
+}
+.heading-title-2 h3 {
+  font-family: "Lora", serif;
   color: var(--primary-gold);
   font-size: 2rem;
   margin-top: -4px;
   text-shadow: 0px 1px 1px #0000006e;
 }
 
-.heading-title img {
+.heading-title img,
+.heading-title-2 img {
   width: 200px;
 }
 
@@ -186,7 +194,8 @@ body {
 }
 
 .nama-pengantin h2 {
-  font-family: Signatie;
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
   font-size: 2.5rem;
   text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
 }
@@ -359,7 +368,7 @@ body {
 
 .heading-foto {
   text-align: center;
-  font-family: Afterglow Regular;
+  font-family: "Lora", serif;
   font-size: 2.6rem;
   color: var(--primary-gold);
 }
